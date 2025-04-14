@@ -17,17 +17,12 @@ Este é um projeto simples em linguagem C que realiza a verificação de três c
 - Compilador C (como `gcc`)
 - Terminal/Shell
 
-## ▶️ Como executar
+---
 
-Clone o repositório e compile o código:
-
-```bash
-git clone https://github.com/seu-usuario/verificacao-condicoes-operacionais.git
-cd verificacao-condicoes-operacionais/src
-gcc verificacao_parametros.c -o verificacao
-./verificacao
-
-
-Desenvolvido em: 
-
+## 🛠️ Tecnologias Utilizadas
 [![My Skills](https://skillicons.dev/icons?i=c)](https://skillicons.dev)
+
+
+---
+
+Desenvolvido por **Raphael Cypreste** 💻
