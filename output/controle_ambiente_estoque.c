@@ -33,6 +33,7 @@ int main () {
     } else {
         printf("Estoque dentro dos parametros.\n");
     }   
+    printf("***Fim do programa***\n");
     return 0;
     }
 
