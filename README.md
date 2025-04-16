@@ -1,21 +1,58 @@
-# SuperTrunfo em C | Desenvolvendo a lógica do jogo
+<h1 align="center">🃏 Super Trunfo - Batalha de Cartas em C</h1>
 
-# Verificação de Condições Operacionais
-Este é um projeto simples em linguagem C que realiza a verificação de três condições operacionais comuns: **temperatura**, **umidade** e **nível de estoque**. O objetivo é praticar conceitos básicos de entrada de dados, estruturas condicionais e organização de código em C.
+<p align="center">
+  Projeto de lógica em C que simula a comparação entre duas cartas de cidades com base em atributos como população, área, PIB e outros. Criado como parte de um desafio de programação.
+</p>
 
-## 🔧 Funcionalidades
+---
 
-- Recebe dados do usuário:
-  - Temperatura (°C)
-  - Umidade (%)
-  - Nível de estoque (unidades)
-- Analisa se cada um dos parâmetros está dentro dos limites aceitáveis.
-- Exibe mensagens de alerta caso algum dos valores esteja fora do esperado.
+## 📌 Sobre o Projeto
 
-## 📌 Requisitos
+Este projeto simula uma partida entre duas cartas no estilo **Super Trunfo**, onde cada carta representa uma cidade brasileira e contém atributos numéricos.  
+A comparação entre as cartas é feita com base em **um único atributo**, e o programa determina qual carta vence com base nos valores fornecidos.
 
-- Compilador C (como `gcc`)
-- Terminal/Shell
+---
+
+## ✅ Funcionalidades
+
+### ✔️ Requisitos Funcionais
+
+- 📥 Leitura dos dados de **duas cartas**
+- 🧮 Cálculo automático:
+  - Densidade Populacional (`população / área`)
+  - PIB per Capita (`PIB / população`)
+- ⚔️ Comparação de um **único atributo numérico** (fixo no código):
+  - População
+  - Área
+  - PIB
+  - Pontos Turísticos
+  - **Densidade Populacional** (menor vence)
+  - PIB per Capita
+- 🏆 Exibição clara da carta vencedora com:
+  - Nome da cidade
+  - Estado
+  - Valores comparados
+
+### 🧠 Requisitos Não Funcionais
+
+- 🧹 Código organizado e comentado
+- 📖 Variáveis descritivas e estruturas de decisão `if/else`
+- 📤 Saída de dados clara e informativa
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- Linguagem C (ANSI C)
+- Compilado com `gcc`
+
+---
+
+## 🚀 Melhorias Futuras
+
+- 🔄 Menu para escolha do atributo via entrada do usuário
+- 🎮 Sistema de pontuação por rodadas
+- 🕹️ Modo de múltiplas partidas
 
 ---
 
